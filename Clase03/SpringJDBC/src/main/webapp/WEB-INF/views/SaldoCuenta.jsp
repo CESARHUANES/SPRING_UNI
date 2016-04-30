@@ -10,7 +10,8 @@
 <h1>
 SALDO CUENTA
 </h1>
-<P>Cuenta:$P>{cuenta}</P>
-<P>Saldo:$P>{saldo}</P>
+<P>Cuenta:<P>${cuenta}</P>
+<P>Saldo:<P>${saldo}</P>
+<P>Error:<P>${error}</P>
 </body>
 </html>

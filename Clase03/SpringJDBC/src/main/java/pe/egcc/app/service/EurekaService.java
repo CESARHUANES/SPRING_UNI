@@ -7,9 +7,12 @@ import pe.egcc.dao.especificacion.EurekaDaoEspec;
 
 @Service
 public class EurekaService {
-@Autowired	
-private EurekaDaoEspec eurekaDaoEspec;
-public double getSaldoCuenta(String cuenta){
-return eurekaDaoEspec.getSaldoCuenta(cuenta);
-}
+	
+	//@Autowired
+	//private EurekaDaoEspec eurekaDao;
+
+	public double getSaldoCuenta(String cuenta) {
+		//return eurekaDao.getSaldoCuenta(cuenta);
+		return 888;
+	}
 }
